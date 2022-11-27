@@ -1,0 +1,52 @@
+﻿@model Dashboard.Models.Viewmodel.LoginSignUpViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout_Login.cshtml";
+}
+
+<div class="container ">
+    <div class="row mt-lg-5">
+        <div class="col-4 offset-4 border border-primary rounded pl-5 pr-5 pb-5">
+            <h6 class="text-success text-center">@TempData["SuccessMessage"]</h6>
+            <div class="text-center">
+                <h3>Sign In</h3>
+            </div>
+            <form method="post" asp-action="Login">
+                <div class="form-group">
+                    <label asp-for="Username"></label>
+                    <input type="text" asp-for="Username" class="form-control" placeholder="Username" autocomplete="off" />
+                    <span class="text-danger">@TempData["errorUsername"]</span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Password"></label>      
+                    <input type="password" asp-for="Password" class="form-control" placeholder="Password" autocomplete="off" />
+                    <span class="text-danger">@TempData["errorPassword"]</span>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-block btn-primary mb-2" value="Log In" />
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <a class="text-light btn btn-block btn-primary font-weight-bold" asp-action="SignUp" asp-controller="Account">Sign Up</a>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="~\lib\jquery\dist\jquery.min.js"></script>
+<script src="~\lib\jquery\dist\jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#open').click(function() {
+            $('#open').hide();
+            $('#closed').show();
+        })
+    });    
+</script>

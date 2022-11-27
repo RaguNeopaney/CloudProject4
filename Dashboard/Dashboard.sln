@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardProject4", "DashboardProject4.csproj", "{D2C0BAE8-660D-4EAE-9387-6FCBDE8F8E3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dashboard", "Dashboard.csproj", "{03A9EEB4-1D4D-4641-931F-ABBBF0C8F512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2C0BAE8-660D-4EAE-9387-6FCBDE8F8E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2C0BAE8-660D-4EAE-9387-6FCBDE8F8E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2C0BAE8-660D-4EAE-9387-6FCBDE8F8E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2C0BAE8-660D-4EAE-9387-6FCBDE8F8E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03A9EEB4-1D4D-4641-931F-ABBBF0C8F512}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A9EEB4-1D4D-4641-931F-ABBBF0C8F512}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A9EEB4-1D4D-4641-931F-ABBBF0C8F512}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A9EEB4-1D4D-4641-931F-ABBBF0C8F512}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3F0B50DD-F537-4CA9-A656-949945D51245}
+		SolutionGuid = {FD75913F-A7F4-40B2-91AF-648DD06C306A}
 	EndGlobalSection
 EndGlobal
